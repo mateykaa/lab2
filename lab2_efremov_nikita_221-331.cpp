@@ -1,16 +1,16 @@
-#include <iostream>
+﻿#include <iostream>
 
 using std::cin;
 using std::cout;
 
 void task1()
 {
-    int size;
+    int sqw;
     std::cout << "Enter number of Numerical triangle: ";
-    std::cin >> size;
+    std::cin >> sqw;
     for (
         int i = 0; 
-        i <= size; 
+        i <= sqw;
         i++
         )
     {
@@ -49,6 +49,7 @@ void task3()
     while (cin >> num, num != 0)
     {
         k++;
+        sum = sum + num;
     }
     std::cout << (double)sum / k << "\n";
 }
